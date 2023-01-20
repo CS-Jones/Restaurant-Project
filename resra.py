@@ -19,7 +19,7 @@ def miles_to_meters(miles):
         return 0
         
         
-address = '1A The Grn, Liverpool L13 4BX'
+address = ''
 geocode = map_client.geocode(address=address)
 (lat, lng) = map(geocode[0]['geometry']['location'].get, ('lat', 'lng'))        
 
